@@ -1,0 +1,34 @@
+---
+title: "Test of RMarkdown for Pensions"
+author: "Jordan Campbell"
+date: "12/9/2020"
+output: 
+  powerpoint_presentation:
+    reference_doc: template_III.potx
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+### Slide 1
+
+```{r pressure, fig.asp = 1}
+
+plot(iris[, 5])
+
+```
+
+## Slide 2
+
+### Slide 3
+
+- test 
+- test
+
+
+### Slide 4
+
+1. test
+2. test
